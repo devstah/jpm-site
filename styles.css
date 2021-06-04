@@ -34,11 +34,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* border: solid black 10px; */
+  background-color: white;
 }
  .centered p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: white;
-  font-size: 60px;
+  color:black;
+  font-size: 35px;
+  margin-left: 150px
 }
 
 .top-image .centered .typing {
@@ -53,6 +56,33 @@
   height: 90%;
   border-right: 2px solid white;
   animation: blink 0.5s infinite ease;
+}
+
+.centered-slightly{
+  position: absolute;
+  top: 68%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-slightly a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: white ;
+  text-decoration: none;
+}
+
+.centered-slightly-above{
+  position: absolute;
+  top: 33%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  /* border: solid black 10px; */
+  background-color: white;
+  text-align: center;
+}
+
+.centered-slightly-above p {
+  color: black;
 }
 
 @keyframes blink{
@@ -89,11 +119,10 @@ p {
 .blue-box {
   height: 500px;
   background-color: #00477B;
-  transform: rotate(0.85deg) skew(0.85deg);
-}
-
-.flex-box{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform: rotate(0.85deg) skew(0.85deg);
 }
 
 .blue-box p {
@@ -119,7 +148,7 @@ display: flex;
 }
 
 .block1 {
-  border: solid black 1px;
+  border: solid white 1px;
   border-right-color: #00477B;
   border-right-width: 7px;
 
@@ -148,7 +177,7 @@ display: flex;
 .container-bottom{
   position: relative;
   text-align: center;
-  color: white;
+  transform: rotate(0.85deg) skew(0.85deg);
 }
 
 .bottom-right {
@@ -178,3 +207,11 @@ display: flex;
 }
 
 /* end last div styling */
+
+
+/*media styling*/
+@media (max-width: 600px){
+
+
+
+}
