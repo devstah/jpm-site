@@ -157,7 +157,8 @@ i {
 
 .content-two {
   position: absolute;
-  /* bottom: -130px; */
+  bottom: -760px;
+  left: 790px;
   border: solid white 2px;
 }
 
