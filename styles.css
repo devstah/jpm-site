@@ -35,7 +35,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   /* border: solid black 10px; */
-  background-color: white;
+  /* background-color: white; */
 }
  .centered p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -58,32 +58,19 @@
   animation: blink 0.5s infinite ease;
 }
 
-.centered-slightly{
-  position: absolute;
-  top: 68%;
-  left: 28%;
-  transform: translate(-50%, -50%);
-}
 
-.centered-slightly a {
+.centered a {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: white ;
-  text-decoration: none;
+  color: white;
+  text-decoration: none
 }
 
-.centered-slightly-above{
-  position: absolute;
-  top: 33%;
-  left: 29%;
-  transform: translate(-50%, -50%);
-  /* border: solid black 10px; */
+.centered .heading {
   background-color: white;
-  text-align: center;
+  width: 80%;
+  padding: 15px;
 }
 
-.centered-slightly-above p {
-  color: black;
-}
 
 @keyframes blink{
   0%{
@@ -122,11 +109,18 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  transform: rotate(0.85deg) skew(0.85deg);
+  transform: rotate(0.60deg) skew(0.60deg);
+  padding: 0 25%;
+}
+
+.blue-box > div {
+  text-align: center;
+  padding: 25px;
 }
 
 .blue-box p {
   color: white;
+  width: 100%;
 }
 /* end blue box */
 
@@ -139,8 +133,15 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 1300px;
-  border: solid black 3px;
+  padding: 100px 0;
+}
+
+.fourth-div > div {
+  width: 50%;
+}
+
+.fourth-div p {
+  width: 100%;
 }
 
 .block-quote {
@@ -161,7 +162,6 @@ display: flex;
 }
 
 .block2 {
-  border: solid black 2px;
   margin-left: 10px;
   height: 400px;
 }
@@ -177,7 +177,7 @@ display: flex;
 .container-bottom{
   position: relative;
   text-align: center;
-  transform: rotate(0.85deg) skew(0.85deg);
+  transform: rotate(0.60deg) skew(0.60deg);
 }
 
 .bottom-right {
