@@ -1,12 +1,32 @@
 /*** Write CSS Here ****/
-.top-image {
-  position: relative;
-  text-align: center;
-  color: white;
-  background-color: black;
+
+/* top heading box */
+.container {
+  transform: rotate(0.2deg) skew(0.2deg);
 }
-.top-image img {
-  opacity: 0.5;
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-centered {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  right: 50%;
+}
+
+.top-centered p {
+  color: white;
+  white-space: nowrap;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
 .centered {
@@ -15,10 +35,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.top-image .centered h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
+ .centered p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: white;
+  font-size: 60px;
 }
 
 .top-image .centered .typing {
@@ -38,87 +58,113 @@
 @keyframes blink{
   0%{
     opacity: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
   100%{
     opacity: 1;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
 }
 
+/*end top heading box */
 
-p {
-  font-weight: bold;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 50%;
-}
 
+/*first text box */
 .second-div {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 500px;
 }
 
+p {
+  color: black;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  width: 50%;
+}
+/* end first text box */
+
+
+/*blue box */
 .blue-box {
-  border: solid black 2px;
   height: 500px;
   background-color: #00477B;
+  transform: rotate(0.85deg) skew(0.85deg);
 }
 
-.blue-box div {
-  background-color: #00477B;
+.flex-box{
   display: flex;
 }
 
-.blue-box .icons {
-  width: 100%;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
+.blue-box p {
+  color: white;
 }
+/* end blue box */
 
-.blue-box .down-arrows {
-  width: 100%;
-  height: 20px;
-  justify-content: center;
-  align-items: center;
-}
 
-.laptop {
-  position: absolute;
-  left: 200px;
-}
-
-.bank {
-  position: absolute;
-  right: 200px;
-}
-
-.down-one {
-  position: absolute;
-  left: 230px;
-}
-
-.down-three {
-  position: absolute;
-  right: 230px;
-}
-
-i {
-  font-size: 70px;
-  color:  #8DD5FE
-}
-
-.fa-chevron-down {
-  font-size: 30px;
-}
+/*fourth -div styling */
 
 .fourth-div {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  height: 1300px;
+  border: solid black 3px;
 }
 
+.block-quote {
+display: flex;
+}
+
+.block1 {
+  border: solid black 1px;
+  border-right-color: #00477B;
+  border-right-width: 7px;
+
+}
+
+.block1 p{
+  color: #00477B;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.block2 {
+  border: solid black 2px;
+  margin-left: 10px;
+  height: 400px;
+}
+
+.block2 p {
+  text-align: center;
+}
+
+/*end fourth div styling*/
+
+/* section image styling */
+
+.container-bottom{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* end section image stying */
+
+
+/*last div */
 .sixth-div {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 500px;
 }
 
 .arrow {
@@ -126,87 +172,9 @@ i {
   justify-content: center;
 }
 
-.btn-down-one {
-  background-color:  #00477B;
-  border: none;
-}
-
-.btn-down-two {
-  background-color:  #00477B;
-  border: none;
-}
-
-.btn-down-three {
-  background-color:  #00477B;
-  border: none;
-}
-
-.content-one {
-  position: absolute;
-  bottom: -180px;
-  left: -50px;
-  border: solid white 2px;
-}
-
-.content-one p {
-  color: white;
-  font-size: 15px;
-  width: 300px;
-  border: solid black 2px;
-}
-
-.content-two {
-  position: absolute;
-  bottom: -760px;
-  left: 790px;
-  border: solid white 2px;
-}
-
-.content-two p {
-  color: white;
-  font-size: 15px;
-  width: 300px;
-  border: solid black 2px;
-}
-
-.content-three {
-  position: absolute;
-  bottom: -180px;
-  border: solid white 2px;
-}
-
-.content-three p {
-  color: white;
-  font-size: 15px;
-  width: 300px;
-  border: solid black 2px;
-}
-
-.btn {
+.btn{
   background-color: white;
   border: none;
 }
 
-.fa-arrow-circle-up {
-  font-size: 35px;
-  color: #00477B;;
-}
-
-/* make buttons pulse */
-/* .down-one button:hover {
-  animation: pulse 1s infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes pulse {
-  0% {
-     transform: scale(1);
-    }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-} */
-
+/* end last div styling */
