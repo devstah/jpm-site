@@ -1,0 +1,211 @@
+/*** Write CSS Here ****/
+.top-image {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.top-image img {
+  opacity: 0.5;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-image .centered h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+.top-image .centered .typing {
+  position: relative;
+  margin-left: 10px;
+}
+
+.top-image .centered .typing::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  border-right: 2px solid white;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+p {
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+.second-div {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-box {
+  border: solid black 2px;
+  height: 500px;
+  background-color: #00477B;
+}
+
+.blue-box div {
+  background-color: #00477B;
+  display: flex;
+}
+
+.blue-box .icons {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box .down-arrows {
+  width: 100%;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.laptop {
+  position: absolute;
+  left: 200px;
+}
+
+.bank {
+  position: absolute;
+  right: 200px;
+}
+
+.down-one {
+  position: absolute;
+  left: 230px;
+}
+
+.down-three {
+  position: absolute;
+  right: 230px;
+}
+
+i {
+  font-size: 70px;
+  color:  #8DD5FE
+}
+
+.fa-chevron-down {
+  font-size: 30px;
+}
+
+.fourth-div {
+  display: flex;
+  justify-content: center;
+}
+
+.sixth-div {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-down-one {
+  background-color:  #00477B;
+  border: none;
+}
+
+.btn-down-two {
+  background-color:  #00477B;
+  border: none;
+}
+
+.btn-down-three {
+  background-color:  #00477B;
+  border: none;
+}
+
+.content-one {
+  position: absolute;
+  bottom: -180px;
+  left: -50px;
+  border: solid white 2px;
+}
+
+.content-one p {
+  color: white;
+  font-size: 15px;
+  width: 300px;
+  border: solid black 2px;
+}
+
+.content-two {
+  position: absolute;
+  /* bottom: -130px; */
+  border: solid white 2px;
+}
+
+.content-two p {
+  color: white;
+  font-size: 15px;
+  width: 300px;
+  border: solid black 2px;
+}
+
+.content-three {
+  position: absolute;
+  bottom: -180px;
+  border: solid white 2px;
+}
+
+.content-three p {
+  color: white;
+  font-size: 15px;
+  width: 300px;
+  border: solid black 2px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+}
+
+.fa-arrow-circle-up {
+  font-size: 35px;
+  color: #00477B;;
+}
+
+/* make buttons pulse */
+/* .down-one button:hover {
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {
+     transform: scale(1);
+    }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+

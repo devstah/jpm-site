@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hero---Image-(tall)-Copy" transform="translate(-561.000000, -1761.000000)" stroke="#8DD5FE" stroke-width="3">
+            <g id="icon-1" transform="translate(563.000000, 1763.000000)">
+                <path d="M81.7511711,154.313913 C13.0155375,158.102696 -25.9748511,76.7185311 19.7897924,25.7310982 C48.2582145,-5.98620571 97.1282175,-8.83172343 129.103962,19.7020593 C160.260017,47.516602 163.861919,95.1357908 136.272298,127.289355 L156,142.990796 L98.665134,156 L98.5193239,97.0459035 L118.231263,112.935998 C138.246644,90.2426008 135.594478,56.4147403 113.691448,36.8655619 C91.3470471,16.9037048 57.0225792,18.7863056 37.0032569,41.098466 C4.86199861,76.8914631 32.278224,133.97868 80.4743482,131.310024" id="Stroke-1" stroke-linejoin="round"></path>
+                <path d="M79,65 L79,97" id="Stroke-3"></path>
+                <path d="M95,57 L95,85" id="Stroke-5"></path>
+                <path d="M63,77 L63,97" id="Stroke-7"></path>
+                <path d="M111,77 L111,93" id="Stroke-9"></path>
+                <path d="M47,53 L47,96" id="Stroke-11"></path>
+            </g>
+        </g>
+    </g>
+</svg>

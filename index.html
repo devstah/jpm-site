@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>J.P. Morgan Front-End Challenge</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<script src="js/script.js"></script> -->
+
+</head>
+
+<body>
+
+	<!-- Begin Here -->
+
+	<div class="top-image">
+		<img src="/hero-image.jpg"/>
+		<div class="centered">
+			<!-- <h1>Welcome to J.P. Morgan!</h1> -->
+			<h1>Welcome to J.P. Morgan, World Class Leaders in</h1>
+			<h1 class="typing">hi</h1>
+		</div>
+	</div>
+
+
+	<div class="second-div">
+		<p>Aliquam erat volutpat nulla id neque a tortor facilisis gravida congue id ligula. Curabitur
+			mauris magna, volutpat a molestie non, convallis ac nulla. Sed vestibulum, leo sit amet
+			interdum bibendum, tortor nibh convallis quam, at sodales est odio in ligula. Etiam gravida
+			bibendum tincidunt. Sed bibendum, dolor tempor fermentum laoreet, nulla nulla accumsan
+			augue, ac viverra est nisl sit amet urna. Aenean ut cursus elit, ac dignissim libero. Maecenas
+			semper, tortor eu dapibus egestas, urna leo facilisis nulla, at suscipit sapien leo ut purus.
+			Pellentesque facilisis convallis massa id porttitor. Praesent vel sem non urna faucibus mattis
+			sed viverra felis. Aenean pharetra massa blandit molestie molestie. Sed elementum auctor
+			orci. Ut sit amet finibus orci. Cras ac felis id leo placerat ultrices.</p>
+	</div>
+
+	<div class="blue-box">
+
+		<div class="icons">
+			<div class="laptop">
+				<i class="fas fa-laptop-code"></i>
+			</div>
+
+			<div class="balance">
+			<i class="fas fa-balance-scale-right"></i>
+			</div>
+
+			<div class="bank">
+				<i class="fas fa-landmark"></i>
+			</div>
+		</div>
+
+		<div class="down-arrows">
+
+			<div class="down-one">
+				<button class="btn-down-one">
+					<i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="content-one">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+
+
+			<div class="down-two">
+				<button class="btn-down-two">
+					<i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="content-two">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+
+			<div class="down-three">
+				<button class="btn-down-three">
+					<i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="content-three">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="fourth-div">
+		<p>Vivamus et aliquet massa. Sed interdum nunc ac vestibulum tempor. Donec nec
+			vulputate justo. Etiam tristique imperdiet porta. Nullam lobortis iaculis erat, in
+			euismod sapien commodo in. Nunc sed nisi enim. Proin in dui blandit, pulvinar
+			tortor quis, mattis eros. Ut ligula nulla, porttitor et ex vitae, congue accumsan ante.
+			Proin non interdum tellus, vel feugiat massa. Curabitur sodales, dui id euismod
+			eleifend, leo dolor laoreet libero, sit amet aliquam magna risus quis ipsum.
+			Curabitur pharetra, dui eget faucibus placerat, massa tortor tempus nulla, ac
+			iaculis felis est in urna. Aliquam erat volutpat. Cras elementum nisi ac varius
+			malesuada. Vivamus dignissim justo metus, ac vestibulum lacus pellentesque ac.
+			Aenean faucibus ligula quis venenatis pretium. Vivamus et aliquet massa. Sed interdum nunc ac vestibulum tempor. Donec nec
+			vulputate justo. Etiam tristique imperdiet porta. Nullam lobortis iaculis erat, in
+			euismod sapien commodo in. Nunc sed nisi enim.</p>
+	</div>
+
+	<div class="bottom-image">
+		<img src="/section-image.jpg"/>
+	</div>
+
+	<div class="sixth-div">
+		<p>
+			Vivamus et aliquet massa. Sed interdum nunc ac vestibulum tempor. Donec nec
+			vulputate justo. Etiam tristique imperdiet porta. Nullam lobortis iaculis erat, in
+			euismod sapien commodo in. Nunc sed nisi enim. Proin in dui blandit, pulvinar
+			tortor quis, mattis eros. Ut ligula nulla, porttitor et ex vitae, congue accumsan ante.
+			Proin non interdum tellus, vel feugiat massa. Curabitur sodales, dui id euismod
+			eleifend, leo dolor laoreet libero, sit amet aliquam magna risus quis ipsum.
+			Curabitur pharetra, dui eget faucibus placerat, massa tortor tempus nulla, ac
+			iaculis felis est in urna. Aliquam erat volutpat. Cras elementum nisi ac varius
+			malesuada. Vivamus dignissim justo metus, ac vestibulum lacus pellentesque ac.
+			Aenean faucibus ligula quis venenatis pretium
+		</p>
+	</div>
+
+	<div class="arrow">
+	<button class="btn" onclick="topFunction()">
+		<i class="fas fa-arrow-circle-up"></i>
+	</button>
+	</div>
+
+
+	<script src="app.js"></script>
+	<script>
+		function topFunction() {
+			document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+		}
+
+		let collOne = document.querySelector(".btn-down-one");
+		let collTwo = document.querySelector(".btn-down-two");
+		let collThree = document.querySelector(".btn-down-three");
+
+		collOne.addEventListener("click", function(){
+			this.classList.toggle("active");
+			let content = this.nextElementSibling;
+			if(content.style.display === "block"){
+				content.style.display = "none"
+			} else{
+				content.style.display = "block";
+			}
+		});
+
+
+		collTwo.addEventListener("click", function(){
+			this.classList.toggle("active");
+			let content = this.nextElementSibling;
+			if(content.style.display === "block"){
+				content.style.display = "none"
+			} else{
+				content.style.display = "block";
+			}
+		});
+
+
+		collThree.addEventListener("click", function(){
+			this.classList.toggle("active");
+			let content = this.nextElementSibling;
+			if(content.style.display === "block"){
+				content.style.display = "none"
+			} else{
+				content.style.display = "block";
+			}
+		});
+
+
+
+
+	</script>
+	<script src="https://kit.fontawesome.com/48bc17475b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
